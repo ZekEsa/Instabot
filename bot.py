@@ -7,19 +7,24 @@ class Bot():
 
     links = []
 
+    #Chooses one of these comments randomly
     comments = [
         'Great post!', 'cool lol', 'artificial intelligence is the future!', 'wowza'
     ]
 
     def __init__(self):
+        #can change these
+        hashtag = 'aiart'
+        username = 'robotZek'
+
         # set the driver
         self.driver = webdriver.Firefox()
 
-        self.login('robotZek', password)
+        self.login(username, password)
         #self.get_first_post('artificalintelligenceart')
         #self.like_pic()
         #self.get_post()
-        self.like_comment_by_hashtag('aiart')
+        self.like_comment_by_hashtag(hashtag)
         #self.download_image()
 
     
@@ -95,45 +100,6 @@ class Bot():
             self.driver.find_element('xpath', "/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/textarea").send_keys(self.comments[randint(0, 3)])
             sleep(1)
             self.driver.find_element('xpath', "/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/div[1]/div[2]/section/main/div[1]/div[1]/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div").click() 
-
-
-
-
-    # using a different tutorial
-    def get_first_post(self, hashtag):
-        self.driver.get('https://www.instagram.com/explore/tags/{}/'.format(hashtag))
-        sleep(5)
-        pic = self.driver.find_element('xpath', '/html/body')
-        pic.click()
-    
-    def like_pic(self):
-        sleep(5)
-        like = self.driver.find_element('xpath', '/html/body/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[3]/div/div/div/div/div[2]/div/article/div/div[2]/div/div/div[2]/section[1]/span[1]/button/div[1]/svg/path')
-        like.click()
-
-
-
-    # trying to have it post
-    def get_post(self):
-        #searchbox
-        sleep(5)
-        self.driver.get('https://www.instagram.com/archillect/')
-    
-    def download_image(self):
-        self.driver.get('https://cdn.mos.cms.futurecdn.net/bEbjFwo5Xsf2jbbQGF3sBW-1200-80.jpeg')
-
-        # get the image source
-        img = self.driver.find_element('tag name', 'img')
-        src = img.get_attribute('src')
-
-        # download the image
-        urllib.urlretrieve(src, "alien.png")
-
-        self.driver.close()
-    
-    def create_post(self, caption):
-        sleep(100)
-
 
 # make runable 
 def main():

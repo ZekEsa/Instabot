@@ -1341,3 +1341,73 @@ TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
 interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
 webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
 1673847400663	Marionette	INFO	Stopped listening on port 52534
+1673851860590	geckodriver	INFO	Listening on 127.0.0.1:53166
+1673851861109	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53167" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/7m135tf10bx_544ybd4k7wjm0000gn/T/rust_mozprofileiYxpUS"
+1673851861788	Marionette	INFO	Marionette enabled
+1673851861958	Marionette	INFO	Listening on port 53172
+Read port: 53172
+WebDriver BiDi listening on ws://127.0.0.1:53167
+1673851862106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/d_/7m135tf10bx_544ybd4k7wjm0000gn/T/rust_mozprofileiYxpUS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53167/devtools/browser/08d06c05-e236-45d3-ae6e-56bab79ceae1
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+1673851891485	Marionette	INFO	Stopped listening on port 53172
+1673851895511	geckodriver	INFO	Listening on 127.0.0.1:53221
+1673851896026	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53222" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/7m135tf10bx_544ybd4k7wjm0000gn/T/rust_mozprofile52BWEz"
+1673851896547	Marionette	INFO	Marionette enabled
+1673851896588	Marionette	INFO	Listening on port 53227
+Read port: 53227
+WebDriver BiDi listening on ws://127.0.0.1:53222
+1673851896760	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/d_/7m135tf10bx_544ybd4k7wjm0000gn/T/rust_mozprofile52BWEz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53222/devtools/browser/62c77615-1a7f-4856-a80b-924c52f9a77d
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673851946538	geckodriver	INFO	Listening on 127.0.0.1:53280
+1673851947056	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53281" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/d_/7m135tf10bx_544ybd4k7wjm0000gn/T/rust_mozprofileosO2Lr"
+1673851947587	Marionette	INFO	Marionette enabled
+1673851947631	Marionette	INFO	Listening on port 53286
+Read port: 53286
+WebDriver BiDi listening on ws://127.0.0.1:53281
+1673851947812	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/d_/7m135tf10bx_544ybd4k7wjm0000gn/T/rust_mozprofileosO2Lr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53281/devtools/browser/c58dd4ef-6713-43c5-a8fd-8efff8eb593e
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673851988607	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673852000682	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673852012624	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673852024675	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y9/l/en_US/btpXAOmpZtO.js?_nc_x=Ij3Wp8lg5Kz, line 28: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1673852036681	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1673852060358	Marionette	INFO	Stopped listening on port 53227
+1673852063293	Marionette	INFO	Stopped listening on port 53286
